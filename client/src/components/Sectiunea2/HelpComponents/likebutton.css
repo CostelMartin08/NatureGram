@@ -1,0 +1,44 @@
+
+.btnLike {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    width: 34px;
+    border: none;
+    background-color: transparent;
+  }
+  .btnLike::after {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    font-size: 15px;
+    font-family: 'Lucida Sans' sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    transition: .2s linear;
+    top: 115%;
+  }
+  .icon {
+    width: 30px;
+    height: 30px;
+    transition: .2s linear;
+  }
+  
+  .icon path {
+    transition: .2s linear;
+  }
+  
+  .btnLike:hover>.icon {
+    transform: scale(1.2);
+  }
+  
+  .btnLike:hover>.icon path {
+    fill: rgb(177, 139, 189);
+  }
+  
+  .btnLike:hover::after {
+    visibility: visible;
+    opacity: 1;
+    top: 105%;
+  }

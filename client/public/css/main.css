@@ -1,0 +1,61 @@
+@import url(variabile.css);
+@import url(Sectiunea1.css);
+@import url(Sectiunea2.css);
+@import url(Sectiunea3.css);
+@import url(nightmode.css);
+
+h4{
+    margin:0;
+}
+
+p{
+    margin:0px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+ul{
+    list-style: none;
+}
+.title{
+    font-family: var(--font-titlu);
+    
+}
+.text{
+    font-family: var(--font-body);
+}
+
+.button-transparent-style{
+    font-size: large;
+    transition: font-size 2s ease;
+}
+.button-transparent-style:hover{
+    font-size: x-large;
+    transition: font-size 2s ease;
+}
+.buton-general-style{
+    color: white;
+    background-color:var(--button-color);  
+    font-size: large;
+    transition: font-size 2s ease;
+}
+.buton-general-style:hover{
+    color: white;
+    background-color: var(--button-color);  
+    font-size:x-large;
+    transition: font-size 2s ease;
+}
+.buton-second-style{
+    color: white;
+    background-color:var(--button-color);  
+    font-size: large;
+   
+}
+.buton-second-style:hover{
+    color: white;
+    background-color:var(--button-color);    
+}
+
+
+
