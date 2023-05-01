@@ -59,7 +59,7 @@ const Register = () => {
   return (
 
     <section>
-      <div class="container d-flex justify-content-center px-sm-4 py-3">
+      <div class="container d-flex justify-content-center px-sm-4 py-5">
         <div class="box-model inregistrare-style mx-3 mx-sm-5 p-sm-4 ">
 
           <form className="row g-1  mx-3" onSubmit={onSubmit}>
