@@ -1,0 +1,85 @@
+/* -------------------------------------------------------------------------- */
+/*                                    Aside                                   */
+/* -------------------------------------------------------------------------- */
+
+.mode {
+  background-color: rgb(248, 249, 250);
+}
+.color-green{
+  color:var(--button-color);
+  font-size: large;
+  transition: font-size 0.4s ease;
+}
+.color-green:hover{
+  color:#c2bfbf;
+font-size: x-large;
+transition: font-size 0.4s ease;
+}
+/* -------------------------------------------------------------------------- */
+/*                                    Main    0                                */
+/* -------------------------------------------------------------------------- */
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                  PostPage                                  */
+/* -------------------------------------------------------------------------- */
+
+.page {
+  opacity: 0.3;
+}
+
+.center-element {
+
+  position: absolute;
+  top: 0;
+ right: 0;
+  left:0;
+  bottom: 0;
+  margin: auto;
+  z-index: 2000;
+}
+
+.box-model-2 {
+  border-radius: 10px;
+  box-shadow: 15px 15px 30px #e4d8d8,
+    -15px -15px 30px #c4b9b9;
+
+}
+
+.bg-mycolor {
+  background-color: #c2bfbf;
+}
+
+.textUpload {
+  margin-left: 50px;
+}
+
+
+.text-input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+
+.file-input {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+
+}
+
+.file-input-button {
+  position: absolute;
+  opacity: 0;
+
+}
+
+
+
+

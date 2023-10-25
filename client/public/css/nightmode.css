@@ -1,0 +1,64 @@
+.bg-dark * {
+  color: white;
+}
+.bg-dark input, .bg-dark select, .bg-dark textarea{
+  background-color: #404258;
+}
+.bg-dark input:focus, .bg-dark select:focus, .bg-dark textarea:focus{
+  background-color: #404258;
+  color: aliceblue;
+}
+.bg-dark  input::placeholder, .bg-dark  textarea::placeholder, .bg-dark path {
+  color: white;
+  fill:white;
+}
+
+
+
+.bg-dark .dropdown-menu {
+  background-color: #404258;
+}
+
+.bg-dark .mode{
+  background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
+}
+
+.bg-dark .box-model {
+  box-shadow: 15px 15px 30px #272525,
+      -15px -15px 30px #0c0b0b;
+
+}
+/* -------------------------------------------------------------------------- */
+/*                      Sectiunea Posteaza din ScrollPage                     */
+/* -------------------------------------------------------------------------- */
+.bg-dark .box-model-2 {
+  box-shadow: 15px 15px 30px #272525,
+      -15px -15px 30px #0c0b0b;
+
+}
+.bg-dark .bg-mycolor {
+  background-color: #404258;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                        li elementele din AsideScroll                       */
+/* -------------------------------------------------------------------------- */
+
+.bg-dark .color-green{
+  color:var(--button-color);
+  font-size: large;
+  transition: font-size 0.4s ease;
+}
+.bg-dark .color-green:hover{
+  color: #404258!important;
+font-size: x-large;
+transition: font-size 0.4s ease;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                Profile Page                                */
+/* -------------------------------------------------------------------------- */
+
+.bg-dark .card{
+  background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
+}

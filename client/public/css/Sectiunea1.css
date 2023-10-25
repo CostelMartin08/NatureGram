@@ -1,0 +1,48 @@
+
+   .box-model{
+    border-radius: 10px;
+    box-shadow: 15px 15px 30px #e4d8d8,
+        -15px -15px 30px #c4b9b9;
+
+}
+/* -------------------------------------------------------------------------- */             
+/*                                  Home                                      */
+/* -------------------------------------------------------------------------- */
+
+.class-box {
+    background-image: url(https://images.pexels.com/photos/13774457/pexels-photo-13774457.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title-white {
+    color: white;
+}
+
+.text-white {
+    color: white;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                Register/Connect                            */
+/* -------------------------------------------------------------------------- */
+
+#error {
+    color: red;
+}
+
+.inregistrare-style {
+    max-width: 500px;
+}
+
+.form-control {
+    height: 50px;
+}
+
+.form-control:focus {
+    border: 2px;
+    border-color: transparent;
+    box-shadow: 0 0 0 0.25rem rgba(58, 56, 56, 0.25);
+}
+
